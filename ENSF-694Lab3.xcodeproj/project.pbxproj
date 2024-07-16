@@ -10,6 +10,10 @@
 		2D73FC4D2C3F059E00B2C67A /* lab3exe_A.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D73FC4C2C3F059E00B2C67A /* lab3exe_A.cpp */; };
 		2DB887902C46F8AB00B933B1 /* lab3exe_C.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8878F2C46F8AB00B933B1 /* lab3exe_C.cpp */; };
 		2DB887952C46FA7100B933B1 /* lab3Clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DB887942C46FA7100B933B1 /* lab3Clock.cpp */; };
+		2DB887A72C47157600B933B1 /* CircularQueue_tester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DB887A42C47157600B933B1 /* CircularQueue_tester.cpp */; };
+		2DB887A82C47157600B933B1 /* CircularQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DB887A32C47157600B933B1 /* CircularQueue.cpp */; };
+		2DB887B72C47249300B933B1 /* DynamicStack_tester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DB887B62C47249300B933B1 /* DynamicStack_tester.cpp */; };
+		2DB887B82C47249300B933B1 /* DynamicStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DB887B52C47249300B933B1 /* DynamicStack.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +44,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		2DB887992C47155800B933B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		2DB887AB2C47248400B933B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +72,16 @@
 		2DB8878F2C46F8AB00B933B1 /* lab3exe_C.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lab3exe_C.cpp; sourceTree = "<group>"; };
 		2DB887942C46FA7100B933B1 /* lab3Clock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lab3Clock.cpp; sourceTree = "<group>"; };
 		2DB887962C46FAC000B933B1 /* lab3Clock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lab3Clock.h; sourceTree = "<group>"; };
+		2DB8879B2C47155800B933B1 /* exerciseD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exerciseD; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB887A22C47157600B933B1 /* CircularQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularQueue.h; sourceTree = "<group>"; };
+		2DB887A32C47157600B933B1 /* CircularQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CircularQueue.cpp; sourceTree = "<group>"; };
+		2DB887A42C47157600B933B1 /* CircularQueue_tester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CircularQueue_tester.cpp; sourceTree = "<group>"; };
+		2DB887A52C47157600B933B1 /* data1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = data1.txt; sourceTree = "<group>"; };
+		2DB887A62C47157600B933B1 /* data2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = data2.txt; sourceTree = "<group>"; };
+		2DB887AD2C47248400B933B1 /* exerciseE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exerciseE; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB887B42C47249300B933B1 /* DynamicStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicStack.h; sourceTree = "<group>"; };
+		2DB887B52C47249300B933B1 /* DynamicStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicStack.cpp; sourceTree = "<group>"; };
+		2DB887B62C47249300B933B1 /* DynamicStack_tester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicStack_tester.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +106,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2DB887982C47155800B933B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB887AA2C47248400B933B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +128,8 @@
 			children = (
 				2D73FC462C3F058700B2C67A /* exerciseA */,
 				2DB887892C4621D000B933B1 /* exerciseC */,
+				2DB8879C2C47155800B933B1 /* exerciseD */,
+				2DB887AE2C47248400B933B1 /* exerciseE */,
 				2D73FC382C3EFFBF00B2C67A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +140,8 @@
 				2D73FC372C3EFFBF00B2C67A /* ENSF-694Lab3 */,
 				2D73FC452C3F058600B2C67A /* exerciseA */,
 				2DB887882C4621D000B933B1 /* exerciseC */,
+				2DB8879B2C47155800B933B1 /* exerciseD */,
+				2DB887AD2C47248400B933B1 /* exerciseE */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +162,28 @@
 				2DB887962C46FAC000B933B1 /* lab3Clock.h */,
 			);
 			path = exerciseC;
+			sourceTree = "<group>";
+		};
+		2DB8879C2C47155800B933B1 /* exerciseD */ = {
+			isa = PBXGroup;
+			children = (
+				2DB887A22C47157600B933B1 /* CircularQueue.h */,
+				2DB887A32C47157600B933B1 /* CircularQueue.cpp */,
+				2DB887A42C47157600B933B1 /* CircularQueue_tester.cpp */,
+				2DB887A52C47157600B933B1 /* data1.txt */,
+				2DB887A62C47157600B933B1 /* data2.txt */,
+			);
+			path = exerciseD;
+			sourceTree = "<group>";
+		};
+		2DB887AE2C47248400B933B1 /* exerciseE */ = {
+			isa = PBXGroup;
+			children = (
+				2DB887B42C47249300B933B1 /* DynamicStack.h */,
+				2DB887B52C47249300B933B1 /* DynamicStack.cpp */,
+				2DB887B62C47249300B933B1 /* DynamicStack_tester.cpp */,
+			);
+			path = exerciseE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +240,40 @@
 			productReference = 2DB887882C4621D000B933B1 /* exerciseC */;
 			productType = "com.apple.product-type.tool";
 		};
+		2DB8879A2C47155800B933B1 /* exerciseD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB8879F2C47155800B933B1 /* Build configuration list for PBXNativeTarget "exerciseD" */;
+			buildPhases = (
+				2DB887972C47155800B933B1 /* Sources */,
+				2DB887982C47155800B933B1 /* Frameworks */,
+				2DB887992C47155800B933B1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = exerciseD;
+			productName = exerciseD;
+			productReference = 2DB8879B2C47155800B933B1 /* exerciseD */;
+			productType = "com.apple.product-type.tool";
+		};
+		2DB887AC2C47248400B933B1 /* exerciseE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB887B12C47248400B933B1 /* Build configuration list for PBXNativeTarget "exerciseE" */;
+			buildPhases = (
+				2DB887A92C47248400B933B1 /* Sources */,
+				2DB887AA2C47248400B933B1 /* Frameworks */,
+				2DB887AB2C47248400B933B1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = exerciseE;
+			productName = exerciseE;
+			productReference = 2DB887AD2C47248400B933B1 /* exerciseE */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +290,12 @@
 						CreatedOnToolsVersion = 16.0;
 					};
 					2DB887872C4621D000B933B1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					2DB8879A2C47155800B933B1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					2DB887AC2C47248400B933B1 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
@@ -204,6 +316,8 @@
 				2D73FC362C3EFFBF00B2C67A /* ENSF-694Lab3 */,
 				2D73FC442C3F058600B2C67A /* exerciseA */,
 				2DB887872C4621D000B933B1 /* exerciseC */,
+				2DB8879A2C47155800B933B1 /* exerciseD */,
+				2DB887AC2C47248400B933B1 /* exerciseE */,
 			);
 		};
 /* End PBXProject section */
@@ -230,6 +344,24 @@
 			files = (
 				2DB887952C46FA7100B933B1 /* lab3Clock.cpp in Sources */,
 				2DB887902C46F8AB00B933B1 /* lab3exe_C.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB887972C47155800B933B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB887A72C47157600B933B1 /* CircularQueue_tester.cpp in Sources */,
+				2DB887A82C47157600B933B1 /* CircularQueue.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB887A92C47248400B933B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB887B72C47249300B933B1 /* DynamicStack_tester.cpp in Sources */,
+				2DB887B82C47249300B933B1 /* DynamicStack.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +543,46 @@
 			};
 			name = Release;
 		};
+		2DB887A02C47155800B933B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JZ4LMZQ3Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DB887A12C47155800B933B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JZ4LMZQ3Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2DB887B22C47248400B933B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JZ4LMZQ3Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DB887B32C47248400B933B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JZ4LMZQ3Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -446,6 +618,24 @@
 			buildConfigurations = (
 				2DB8878C2C4621D000B933B1 /* Debug */,
 				2DB8878D2C4621D000B933B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB8879F2C47155800B933B1 /* Build configuration list for PBXNativeTarget "exerciseD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB887A02C47155800B933B1 /* Debug */,
+				2DB887A12C47155800B933B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB887B12C47248400B933B1 /* Build configuration list for PBXNativeTarget "exerciseE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB887B22C47248400B933B1 /* Debug */,
+				2DB887B32C47248400B933B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
