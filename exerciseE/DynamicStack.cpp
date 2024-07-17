@@ -1,13 +1,14 @@
-//
-//  DynamicStack.cpp
-//  Dynamic Stack
-//
-//  Created by Mahmood Moussavi on 2024-04-09.
-//
+/*
+ *  DynamicStack.cpp
+ *  ENSF 694 Lab 3, exercise E
+ *  Completed by: Jaskirat Singh
+ *  Submission date: July 17
+ */
 
 #include "DynamicStack.h"
 
 DynamicStack::DynamicStack( int n ){
+    //Initialize member variables according to promises
     entry = 0;
     initial_capacity = current_capacity = n;
     array = new int[initial_capacity];
@@ -15,17 +16,19 @@ DynamicStack::DynamicStack( int n ){
 
 
 DynamicStack::DynamicStack( DynamicStack const &stack ) {
+    //Initialize member variables by the provided object
     entry = stack.entry;
     initial_capacity = stack.initial_capacity;
     current_capacity = stack.current_capacity;
+    //Initialize new array and populate it
     array = new int[current_capacity];
     for (int i = 0; i < entry; i++){
         array[i] = stack.array[i];
     }
 }
 
-
 DynamicStack::~DynamicStack() {
+    //Deconstructor deletes array and frees up the memory
     delete[] array;
 }
 
@@ -33,6 +36,7 @@ DynamicStack::~DynamicStack() {
 int DynamicStack::top() const {
     //Check if stack is empty
     if(entry > 0) {
+        //Return top value if stack is populated
         return array[entry - 1];
     }
     //Stack is empty
@@ -51,13 +55,16 @@ bool DynamicStack::empty() const {
 }
 
 int DynamicStack::capacity() const {
+    //Provided the current capacity
     return current_capacity;
 }
 
 DynamicStack &DynamicStack::operator=( DynamicStack const &rhs ) {
     //Copy constructor
     if(this != &rhs) {
+        //Delete member array to free up memory
         delete[] array;
+        //Populate new vars
         entry = rhs.entry;
         initial_capacity = rhs.initial_capacity;
         current_capacity = rhs.current_capacity;
@@ -66,6 +73,7 @@ DynamicStack &DynamicStack::operator=( DynamicStack const &rhs ) {
             array[i] = rhs.array[i];
         }
     }
+    //Return the this pointer
     return *this;
 }
 

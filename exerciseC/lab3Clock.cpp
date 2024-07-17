@@ -1,9 +1,10 @@
-//
-//  lab3Clock.cpp
-//  exerciseC
-//
-//  Created by Jaskirat Singh on 2024-07-16.
-//
+/*
+ *  lab3Clock.cpp
+ *  ENSF 694 Lab 3, exercise C
+ *  Completed by: Jaskirat Singh
+ *  Submission date: July 17
+ */
+
 
 #include "lab3Clock.h"
 
@@ -15,7 +16,7 @@ Clock::Clock(int hour, int minute, int second){
         this->second = second;
     }
     else{
-        //Call the default clock constructor
+        //If invalid time is provided then set everything to 0
         this->hour = 0;
         this->minute = 0;
         this->second = 0;
